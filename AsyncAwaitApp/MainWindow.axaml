@@ -1,0 +1,10 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="AsyncAwaitApp.MainWindow"
+        Title="Async Await Example" Width="400" Height="300">
+    <StackPanel>
+        <TextBox x:Name="OutputTextBox" Height="150" AcceptsReturn="True" IsReadOnly="True" TextWrapping="Wrap"/>
+        <Button Content="Connect to Database" Click="ConnectButton_Click" Margin="5"/>
+        <Button Content="Disconnect from Database" Click="DisconectButton_Click" Margin="5"/>
+    </StackPanel>
+</Window>
